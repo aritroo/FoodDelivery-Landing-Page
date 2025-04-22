@@ -11,7 +11,7 @@ nav {
 }
 
 .nav-text ul {
-  font-size: 23px;
+  font-size: 22px;
   gap: 50px;
 }
 
@@ -42,4 +42,24 @@ nav {
 
 .first {
   height: 80vh;
+}
+
+.hero {
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.hero .image-container {
+  width: 570px;
+  height: 478px;
+  border-radius: 36px;
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
 }
