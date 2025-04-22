@@ -39,8 +39,12 @@
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .justify-center {
-  justify-items: center;
+  justify-content: center;
 }
 
 .align-center {
