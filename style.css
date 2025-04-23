@@ -46,7 +46,42 @@ nav {
 
 .hero {
   justify-content: space-between;
-  gap: 200px;
+  gap: 150px;
+}
+
+.text-wrapper {
+  max-width: 550px;
+  gap: 50px;
+}
+
+.text {
+  gap: 20px;
+}
+
+.text h1 {
+  font-size: 61px;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 8px;
+  width: fit-content;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 280px;
 }
 
 .hero .image-container {
@@ -62,4 +97,31 @@ nav {
   position: absolute;
   bottom: 0;
   left: 50px;
+}
+
+.logo-wrapper {
+  gap: 20px;
+}
+
+.logo-card {
+  border-radius: 12px;
+  background-color: white;
+  padding: 14px 23px;
+  width: fit-content;
+  gap: 15px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-small-text {
+  font-size: 12px;
+}
+
+.logo-big-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
 }
