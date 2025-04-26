@@ -18,6 +18,10 @@
   color: #ff5331;
 }
 
+.green-text {
+  color: #009b00;
+}
+
 .nav-bg {
   background-color: #fff4b5;
 }
@@ -72,4 +76,14 @@
   color: #ffffff;
   background-color: #e94339;
   cursor: pointer;
+}
+
+.circle {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }

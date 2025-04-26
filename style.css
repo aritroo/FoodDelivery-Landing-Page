@@ -43,7 +43,7 @@ nav {
 .first {
   height: 100vh;
   gap: 100px;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .hero {
@@ -166,9 +166,6 @@ nav {
 }
 
 .gallery {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
 }
@@ -194,4 +191,62 @@ nav {
 
 .mutton {
   flex-grow: 0.3;
+}
+
+.third {
+  padding: 80px;
+}
+
+.icon-wrapper-col1 {
+  max-width: 75%;
+  margin: auto;
+  gap: 30px;
+}
+
+.icon-card {
+  width: 168px;
+  height: 232px;
+  border-radius: 15px;
+  gap: 30px;
+  background-color: #fafafa;
+}
+
+.icon-card span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.icon-card-big {
+  width: 568px;
+  height: 232px;
+  border-radius: 15px;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.icon-card-big p {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 32px;
+}
+
+.icon-card-big img {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+
+.icon-wrapper-col2 {
+  max-width: 75%;
+  margin: 40px auto;
+  gap: 30px;
+}
+
+.icon-text-wrapper {
+  max-width: 35%;
+  gap: 25px;
+}
+
+.icon-text-wrapper p {
+  font-size: 23px;
 }
