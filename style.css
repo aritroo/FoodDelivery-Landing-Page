@@ -141,3 +141,57 @@ nav {
 .heading p {
   font-size: 18px;
 }
+
+.second {
+  padding: 30px;
+}
+
+.photo-container {
+  background-color: white;
+  border-radius: 31px;
+  padding: 20px;
+  max-width: 1609px;
+  height: 900px;
+  box-sizing: border-box;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.photo-container h2 {
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gallery img {
+  width: 401px;
+  height: 360px;
+  border-radius: 26px;
+  object-fit: cover;
+}
+
+.burger {
+  flex-grow: 0.35;
+}
+
+.briyani {
+  flex-grow: 0.4;
+}
+
+.cake {
+  flex-grow: 0.45;
+}
+
+.mutton {
+  flex-grow: 0.3;
+}
