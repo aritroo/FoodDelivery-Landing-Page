@@ -318,3 +318,112 @@ nav {
   background-color: #ffffff;
   border-radius: 16px;
 }
+
+.fifth {
+  padding: 80px;
+}
+
+.client-wrapper {
+  max-width: 35vw;
+  margin: 0 auto;
+  gap: 45px;
+}
+
+.client-text-wrapper {
+  gap: 25px;
+}
+
+.client-text-wrapper h2 {
+  font-size: 48px;
+}
+
+.client-text-wrapper p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.client-feedback-wrapper {
+  gap: 30px;
+}
+
+.client-feedback-wrapper p {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.client-details span:nth-child(1) {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.client-details span:nth-child(2) {
+  font-size: 14px;
+  color: #616161;
+}
+
+.buttons {
+  gap: 10px;
+}
+
+.buttons .small-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e2e2e2;
+  cursor: pointer;
+}
+
+.buttons .small-circle:nth-child(2) {
+  background-color: #ff5331;
+}
+
+.sixth {
+  padding: 100px 80px;
+}
+
+.newsletter-wrapper {
+  max-width: 70vw;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.newsletter-text {
+  color: #ffffff;
+}
+
+.newsletter-text h2 {
+  font-size: 48px;
+}
+
+.newsletter-text p {
+  font-size: 16px;
+}
+
+.newsletter-input {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 8px;
+
+  width: fit-content;
+}
+
+.newsletter-input input {
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 280px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 500;
+}
